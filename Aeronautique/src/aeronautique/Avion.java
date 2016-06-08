@@ -10,7 +10,7 @@ public class Avion {
 	
 
 	/**
-	 * Modif très importante....!!!!!!! de l'ancien
+	 * Modif très importante....!!!!!!! du nouveau 
 	 */
 	public Avion(int numero, String nom, String loc, int capacite) {
 		super();
