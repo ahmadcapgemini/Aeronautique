@@ -9,7 +9,9 @@ public class Avion {
 	private int capacite; 
 	
 
-	
+	/**
+	 * Moduif très importante
+	 */
 	public Avion(int numero, String nom, String loc, int capacite) {
 		super();
 		this.numero = numero;
