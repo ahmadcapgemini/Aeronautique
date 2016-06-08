@@ -7,6 +7,7 @@ public class Avion {
 	private String nom;
 	private String loc;
 	private int capacite; 
+	private int l = 0; // 0 ancien
 	
 
 	/**
@@ -18,6 +19,7 @@ public class Avion {
 		this.nom = nom;
 		this.loc = loc;
 		this.capacite = capacite;
+
 	}
 
 
