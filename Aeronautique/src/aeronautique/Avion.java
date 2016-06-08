@@ -2,16 +2,15 @@ package aeronautique;
 
 public class Avion {
 
-
+//modification sans push sur l'ancien 
 	private int numero;
 	private String nom;
 	private String loc;
 	private int capacite; 
+	private int l =2;
+	
 	
 
-	/**
-	 * Modif très importante....!!!!!!! du nouveau 
-	 */
 	public Avion(int numero, String nom, String loc, int capacite) {
 		super();
 		this.numero = numero;
