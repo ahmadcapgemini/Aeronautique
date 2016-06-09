@@ -8,6 +8,12 @@ public class Principale {
 
 	}
 
+	/**
+	 * fonction création d'un ligne VOL 
+	 * @param un nouvel objet Avion 
+	 * @param un nouveau Pilote 
+	 * @return un nouveau VOL piloté par le Pilote en utilisant l'Avion définit
+	 */
 	private static Vol unVol(){
 		Avion unAvion = new Avion(1000, "Boeing", "Rennes", 300);
 
