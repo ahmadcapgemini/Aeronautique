@@ -7,7 +7,7 @@ public class Avion {
 	private String nom;
 	private String loc;
 	private int capacite; 
-	private int l =-1;
+
 	
 	
 
@@ -17,6 +17,13 @@ public class Avion {
 		this.nom = nom;
 		this.loc = loc;
 		this.capacite = capacite;
+	}
+
+
+
+	public Avion(int numero) {
+		super();
+		this.numero=numero;
 	}
 
 
@@ -36,6 +43,42 @@ public class Avion {
 
 	public void setNumero(int numero) {
 		this.numero = numero;
+	}
+
+
+
+	public String getNom() {
+		return nom;
+	}
+
+
+
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+
+
+
+	public String getLoc() {
+		return loc;
+	}
+
+
+
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
+
+
+
+	public int getCapacite() {
+		return capacite;
+	}
+
+
+
+	public void setCapacite(int capacite) {
+		this.capacite = capacite;
 	}
 
 
